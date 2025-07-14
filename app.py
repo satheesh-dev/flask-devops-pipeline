@@ -10,7 +10,7 @@ def ping():
 
 @app.route("/hello")
 def hello():
-    return jsonify(message="Hello from Service 2")
+    return jsonify(message="this is service 1")
 
 
 if __name__ == "__main__":
