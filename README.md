@@ -13,10 +13,8 @@ This project demonstrates a complete CI/CD pipeline using GitHub Actions, Docker
 📦 Docker Hub
 
 📁 Project Structure
-bash
-Copy
-Edit
-.
+
+
 ├── app.py                  # Simple Flask app
 ├── Dockerfile              # Dockerfile to containerize the app
 ├── requirements.txt        # Flask dependency
@@ -25,6 +23,8 @@ Edit
 └── k8s/
     ├── deployment.yaml     # Kubernetes Deployment spec
     └── service.yaml        # Kubernetes Service (LoadBalancer)
+
+    
 🧪 API Endpoints
 Endpoint	Description
 /ping	Health check API
